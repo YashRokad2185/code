@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="sty.css" >
+
+    <title>Document</title>  
+</head>
+<body>
+
+    <h1> calculation </h1>
+    
+    <div class="flex-container">
+
+        <div class="flex-item1">
+    <p> input 1</p>   
+    <input id="input1"></input>
+    </div>
+
+ <div class="flex-item3">
+      <select name = "opration" id="cal" >
+        <option  value = "+" > +</option>
+        <option value  = "-"> -</option>
+        <option value = "*"> *</option>
+        <option value = "/"> /</option>
+      </select> 
+      </div>
+     
+  <div class="flex-item2">
+    <p> input 2 </p>  
+    <input id="input2"></input>  
+</div>
+   
+   
+
+      <div class="flex-item4">
+      <button onclick="gen()" >Submit</button>
+     </div>
+
+       <div   class="flex-item5" >
+      <button onclick="clr()"    > Reset </button>
+      </div>
+
+      <div class="flex-item6">
+      <h4>Answer is : </h4> <p id="xyz"></p>
+      </div>
+
+
+<script type ="text/javascript">
+     function  gen() {
+        const int1 = parseFloat(document.getElementById("input1").value);
+        const int2 = parseFloat(document.getElementById("input2").value);
+        const opt = document.getElementById("cal").value;
+
+
+
+        //    if ("" === ""){
+        //     console.log(">>>>>ans ", int1 + "" );
+        //    document.getElementById("xyz").innerHTML = "Somthing Else!  plz Enter digit.";
+        //    }
+
+             if (opt == "+" ) {
+
+            console.log(">>>>>ans ", int1 + int2 );
+            document.getElementById("xyz").innerHTML = int1 + int2;
+
+          }  else if (opt == "-") {
+            console.log(">>>>>>>ans", int1 - int2);
+            document.getElementById("xyz").innerHTML = int1 - int2;
+        }else if (opt == "*") {
+            console.log(">>>>>>>ans", int1 * int2);
+            document.getElementById("xyz").innerHTML = int1 * int2;
+        }else if (opt == "/") {
+            console.log(">>>>>>>ans", int1 / int2);
+           document.getElementById("xyz").innerHTML = int1 / int2;
+           } 
+        }
+
+       
+        
+    
+     function  clr() {
+        document.getElementById("input1").value = ""
+        document.getElementById("input2").value = ""
+
+     } 
+
+
+
+
+
+ //   
+           
+                
+            // console.log(">>>>>ans ", int1 + int2 );
+            // document.getElementById("xyz").innerHTML = int1 + int2;
+
+            // consol.log( (int1 + "")  ||  ("" + ""));
+            //  document.getElementById("xyz").innerHTML = "Somthing else!";
+
+
+
+
+//  } else (" " == " " ) 
+    //         consol.log( (int1 + "")  ||  ("" + ""));
+    //          document.getElementById("xyz").innerHTML = "Somthing else!";
+                
+
+
+
+
+//  if(opt == "+" ){
+        //      consol.log( (int1 + "")  ||  ("" + ""));
+        //      document.getElementById("xyz").innerHTML = "Somthing else!";
+
+        //  }
+        //  else  if (opt == "+" ) {
+        //     console.log(">>>>>ans ", int1 + int2 );
+        //     document.getElementById("xyz").innerHTML = int1 + int2;
+
+
+
+    //      if(opt == ""){
+    //       console.log("Please Add"); 
+    //      }
+
+
+
+
+
+
+// <h1>calculation</h1>
+
+
+// <h4>input1</h4>
+// <input id="input1"/>
+// <h4>input2</h4>
+// <input id="input2"/>
+
+
+// <button onclick="gen()" >Submit</button>
+// <button onclick="clr()">Reset</button>
+
+// <p>Answer : </p>  <p id="xyz"></p>
+
+// <select name="operation" id="call">
+//     <option value="+">+</option>
+//     <option value="-">-</option>
+//     <option value="*">*</option>
+//     <option value="/">/</option>
+// </select>
+
+// <script>
+
+//        function gen() {
+//            const int1 = parseFloat(document.getElementById("input1").value);
+//            const int2 = parseFloat(document.getElementById("input2").value);
+//            const sol = document.getElementById("call").value;
+
+//            if (sol == "+"){
+//                console.log(">>>>>ans",int1 + int2);
+//                document.getElementById("xyz").innerHTML = int1 + int2;
+//            }
+
+//             else if (sol == "+"){
+//                console.log(">>>>>ans",int1 - int2);
+//                document.getElementById("xyz").innerHTML = int1 - int2;
+//                 }
+
+//                if (sol == "+"){
+//                console.log(">>>>>ans",int1 * int2);
+//                document.getElementById("xyz").innerHTML = int1 * int2;
+//                }
+
+//                if (sol == "+"){
+//                console.log(">>>>>ans",int1 / int2);
+//                document.getElementById("xyz").innerHTML = int1 / int2;
+//                }
+
+          
+//        }
+
+//        function clr() {
+
+//         document.getElementById("input1").value=""
+//         document.getElementById("input2").value=""
+
+//        }
+
+
+</script>
+
+
+ 
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    
+    </style>
+    <link rel="stylesheet" type="text/css" href="style3.css" >
+</head>
+<body>
+    
+     <div class="home">
+
+     <div class="reg">
+    <h1>
+        REGISTRATION FORM
+    </h1>
+ </div>  
+
+      <div class="one">
+       <p>Firstname</p>
+        <input id="first"/>
+      </div>
+
+      <div class="one">
+        <p>Lastname</p>
+        <input id="last"/>
+      </div>
+
+
+      <div class="one">
+        <p>mobile</p>
+        <input id="num"/>
+      </div>
+
+
+
+      <div class="one">
+        <p>Email</p>
+        <input id="mail"/>
+      </div>
+
+
+      <div class="one">
+        <p>adress</p>
+        <input id="add"/>
+      </div>
+
+
+      <div class="btn">
+        <button onclick="hello()" >Submit</button>
+      </div>
+   
+
+           </div>
+
+           <script>
+
+               function hello(){
+
+                const data = {
+                    
+
+                    "firstname" :  document.getElementById("first").value  ,
+
+                    "lastname" :  document.getElementById("last").value  ,
+
+                    "mobile" :  document.getElementById("num").value  ,
+
+                    "Email" :  document.getElementById("mail").value , 
+
+                    "Adress" :  document.getElementById("add").value  ,
+
+
+                      }
+
+
+
+                console.log(">>>>>>>>>>>>",data  );
+
+
+               }
+           </script>
+
+</body>
+</html>
+        
+
+
+           

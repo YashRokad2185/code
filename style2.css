@@ -1,0 +1,113 @@
+h1 {
+    background-color: aqua;
+    text-align: center;
+}
+
+.flex-container {  
+    display: -webkit-flex;  
+    display: flex;  
+    width: 10px;  
+    height: 30px; 
+     
+    
+    /* background-color: lightpink;   */
+}  
+
+.flex-item1 {
+    background-color: rgb(206, 107, 196);
+    text-align: center;
+    font-size: 80x;
+    width: 500px;
+    height:45px;
+    padding: 2px , 4px;
+    margin: 20px;
+    }
+    .flex-item2 {
+        background-color:  rgb(206, 107, 196);
+        text-align: center;
+        font-size: 80x;
+        width: 500px;
+        height:45px;
+        padding: 2px , 4px;
+        margin: 20px;
+        }
+    
+    .flex-item3 {
+        text-align: center;
+        
+        width: 50px;
+        height:50px;
+        padding: 40sspx , 50px;
+        margin: 10px;
+    }
+      
+
+    .flex-item4 {
+    
+        
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+          
+          
+            /* min-width: 300px;
+            min-height: 60px; */
+            font-family: 'Nunito', sans-serif;
+            /* font-size: 22px; */
+            /* text-transform: uppercase; */
+            letter-spacing: 1.3px;
+            font-weight: 700;
+            color: #313133;
+            background: #51ddcf;
+          background: linear-gradient(90deg, rgb(94, 197, 80) 0%, rgba(79,209,197,1) 100%);
+            border: none;
+            border-radius: 100px;
+            box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+            transition: all 0.3s ease-in-out 0s;
+            cursor: pointer;
+            outline: none;
+            position: relative;
+            padding: 10px;
+            
+    }
+
+
+.flex-item5 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  
+  
+    /* min-width: 300px;
+    min-height: 60px; */
+    font-family: 'Nunito', sans-serif;
+    /* font-size: 22px; */
+    /* text-transform: uppercase; */
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #51ddcf;
+  background: linear-gradient(90deg, rgb(217, 75, 75) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 100px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    
+}
+ .flex-item6{
+
+    margin-left: 60px;
+    text-decoration: solid;
+    text-decoration-line: underline;
+    text-shadow: #51ddcf;
+    text-indent: 0em;
+
+ }

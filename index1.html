@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" type="text/css" href="sty.css" > -->
+
+  <title>Document</title>
+</head>
+<body>
+
+   <h1> calculation</h1>
+
+
+   <div1>
+  <h3>Enter the nomber : </h3>
+  <input id="input"/>
+</div1>
+  
+<div2>
+  <h3>Enter the nomber : </h3>
+  <input id="box"/>
+</div>
+
+  <br/>    <br/>
+   
+<h3> Answer is : </h3>    <p id="cal"></p>
+
+
+  
+  <div3>
+  <button onclick=" addition      () "> + </button>
+  <button onclick=" Subtraction   () "> - </button>
+  <button onclick=" Multiplication() "> * </button>
+  <button onclick=" divided       () "> / </button>
+</div3>
+
+  
+  
+  <script>
+
+    function addition(){
+      
+    //   document.getElementById("cal").innerHTML = parseFloat( document.getElementById("input").value) + parseFloat( document.getElementById("box").value);
+         document.getElementById("cal").innerHTML = parseFloat ( document.getElementById("input").value) + parseFloat (document.getElementById("box").value);
+
+    }
+    function Subtraction(){
+
+      document.getElementById("cal").innerHTML = parseFloat ( document.getElementById("input").value) - parseFloat (document.getElementById("box").value);
+
+    }
+    
+    function Multiplication(){
+
+    document.getElementById("cal").innerHTML = parseFloat ( document.getElementById("input").value) * parseFloat (document.getElementById("box").value);
+
+  }
+
+  function divided       () {
+
+    document.getElementById("cal").innerHTML = parseFloat ( document.getElementById("input").value) / parseFloat (document.getElementById("box").value);
+  }
+
+  </script>
+
+    
+  
+</body>
+</html>
